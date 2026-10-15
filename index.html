@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha ❤️ Amit | Our Love</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Password Screen -->
+     
+    <section id="loginPage" class="login-page">
+        <div class="login-card">
+            <div class="heart">♥</div>
+            <h1>Hey, Baby! ❤️</h1>
+            <p>I made something special just for you.</p>
+
+            <input type="password" id="password"
+                   placeholder="Enter our secret password">
+
+            <button onclick="unlockWebsite()">Unlock for surprise 💌</button>
+            <p id="error"></p>
+        </div>
+    </section>
+
+    <!-- Main Website -->
+    <div id="website" class="hidden">
+
+        <nav>
+            <h2>Megha <span>♥</span> Amit</h2>
+            <div>
+                <a href="#home">Home</a>
+                <a href="#memories">Memories</a>
+                <a href="#story">Our Story</a>
+                <a href="#letter">Love Letter</a>
+            </div>
+            <button id="musicButton" onclick="toggleMusic()">
+                ♫ Play Our Song
+            </button>
+        </nav>
+
+        <!-- Home -->
+        <section id="home" class="hero">
+            <p class="subtitle">OUR LITTLE LOVE STORY</p>
+            <h1>Megha <span>♥</span> Amit</h1>
+            <h2>One year of love, laughter & memories.</h2>
+            <p>You are my favorite person in the whole world. 🥹❤️</p>
+            <a href="#memories" class="btn">Explore Our Memories ↓</a>
+        </section>
+
+        <!-- Countdown -->
+        <section class="countdown-section">
+            <p class="subtitle">OUR SPECIAL DAY</p>
+            <h1>Our First Anniversary 💋</h1>
+            <p>November 2, 2026</p>
+
+            <div class="countdown">
+                <div><h2 id="days">0</h2><p>Days</p></div>
+                <div><h2 id="hours">0</h2><p>Hours</p></div>
+                <div><h2 id="minutes">0</h2><p>Minutes</p></div>
+                <div><h2 id="seconds">0</h2><p>Seconds</p></div>
+            </div>
+            <p id="countdownMessage"></p>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section id="memories" class="section">
+            <p class="subtitle">OUR LITTLE WORLD</p>
+            <h1>Our Cutest Memories 📸</h1>
+            <p class="description">
+                Every picture tells a story, and my favorite story is us.
+            </p>
+
+            <div class="gallery">
+                <div class="photo-card">
+                    <img src="img/1.jpeg"
+                         alt="Our first meeting">
+                    <h3>We just met ❤️</h3>
+                    <p>The beginning of my favorite story.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="img/2.jpeg"
+                         alt="Our first date">
+                    <h3>Little fun🌹</h3>
+                    <p>Butterflies, smiles, and you.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="img/3.jpeg"
+                         alt="Our cutest moment">
+                    <h3>Just You & Me 🫶🏻</h3>
+                    <p>My favorite place is beside you.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="img/4.jpeg"
+                         alt="Our favorite selfie">
+                    <h3>My Favorite Person 💋</h3>
+                    <p>If I could choose again, I'd choose you.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="img/5.jpeg"
+                         alt="Our first date">
+                    <h3>Just us togather 💌</h3>
+                    <p>Butterflies, smiles, and you.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="img/6.jpeg"
+                         alt="Our first date">
+                    <h3>Always you 🌹</h3>
+                    <p>Butterflies, smiles, and you.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section id="story" class="section story">
+            <p class="subtitle">CHAPTERS OF US</p>
+            <h1>Our Love Story 🖤</h1>
+
+            <div class="timeline">
+                <div class="event">
+                    <span>01</span>
+                    <div>
+                        <h2>When We First Met</h2>
+                        <p>The day my favorite story began. ❤️</p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <span>02</span>
+                    <div>
+                        <h2>Our First Date</h2>
+                        <p>A memory I wish I could relive again.</p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <span>03</span>
+                    <div>
+                        <h2>Our Cute Moments</h2>
+                        <p>Our laughter, silly talks, and little memories.</p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <span>04</span>
+                    <div>
+                        <h2>November 2, 2026</h2>
+                        <p>One year of us, and so much more to come. 💍</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Letter -->
+        <section id="letter" class="section">
+            <div class="letter">
+                <p class="subtitle">A LETTER FOR MY BABY</p>
+                <h1>To My Favorite Person 💌</h1>
+
+                <p>My Baby, ❤️</p>
+
+                <p>
+                    Happy first anniversary to us!
+                    This little website is just a small way of showing
+                    you how special you are to me.
+                </p>
+
+                <p>
+                    Thank you for all the smiles, the laughter,
+                    the cute moments, and the memories we have made.
+                    You have become such a beautiful part of my world.
+                </p>
+
+                <p>
+                    I don't need a perfect love story.
+                    I just want ours, with all its silly moments,
+                    hugs, happiness, and memories yet to come.
+                </p>
+
+                <p>
+                    If I could start all over again,
+                    I would still hope to find you. ❤️
+                </p>
+
+                <h2>I Love You, Baby! 💋</h2>
+                <h3>Forever yours, Megha ♡</h3>
+            </div>
+        </section>
+
+        
+<!-- Final Surprise -->
+<section class="final-section">
+    <div class="heart">♥</div>
+
+    <h1>One Year Down...</h1>
+    <h2>A Million Memories To Go ❤️</h2>
+    <p>You will always have a special place in my heart.</p>
+
+    <button id="surpriseBtn" onclick="showSurprise()">
+        One Last Surprise 🎁
+    </button>
+
+    <div id="surpriseContent" class="hidden">
+        <h2>For My Baby, Amit ❤️</h2>
+
+        <p>
+            I made this special video just for you.
+            Every second with you is a beautiful memory. 🥹
+        </p>
+
+        <video id="surpriseVideo" controls playsinline>
+            <source src="video/surprise.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+
+        <h2>I Love You Forever, Baby! 💋</h2>
+        <p>With all my love, Megha ❤️</p>
+    </div>
+</section>
+
+        <footer>
+            Made with love by Megha, just for Baby ♥
+            <p>November 2, 2026</p>
+        </footer>
+
+    </div>
+    
+
+    <audio id="loveSong" src="music/our-song.mp3" loop></audio>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
