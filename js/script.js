@@ -1,5 +1,5 @@
 
-const secretPassword = "pagallog109";
+const secretPassword = "lovelyamitmegha";
 
 function unlockWebsite() {
     const enteredPassword = document.getElementById("password").value;
